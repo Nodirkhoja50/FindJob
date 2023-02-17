@@ -1,0 +1,9 @@
+<h1>It job</h1>
+
+<form action="" method="post">
+{% csrf_token %}
+<input type='hidden' value='{{form.pk}}' name='id'>
+{{ form.as_p }}
+
+<input type="submit" value="Save" />
+</form>

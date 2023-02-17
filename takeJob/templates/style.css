@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    box-shadow: rgb(26 26 26 / 20%) 0px 4px 6px, rgb(26 26 26 / 10%) 0px 5px 15px;
+}
+
+.navbar .form-inline .nav a:hover {
+    background-color: black;
+    transition: 0.9s;
+}
+
+.select {
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.select_w {
+    background-color: #333;
+    width: 97%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.all_job {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+input::placeholder {
+    color: white;
+}
+textarea::placeholder {
+    color: white;
+}
